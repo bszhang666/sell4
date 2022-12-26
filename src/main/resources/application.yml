@@ -1,0 +1,50 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.0.109/sell3?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 192.168.0.106
+    port: 6379
+    password:
+
+
+server:
+  servlet:
+    context-path: /sell
+  port: 8080
+
+
+wechat:
+  mpAppId: wx9d69703e735f4c73
+  mpAppSecret: fc8a294d5fc58e4aeefb59ebc70612ee
+  mchId: 1483469312
+  mchKey: 7mdApPMfXddfWWbbP4DUaVYm2wjyh3v3
+  keyPath: /Users/zhangboshuo/IdeaProjects/coding-117/doc/h5.p12
+  notifyUrl:  http://zbs666.natapp1.cc/sell/pay/notify
+  openAppId: wx6ad144e54af67d87
+  openAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
+  templateId:
+    orderStatus: dc351Ksozi631MDoOj9NjbyEe1wKkS6SyGTnl2hWzQo
+
+projecturl:
+  wechatMpAuthorize: http://zbs666.natapp1.cc
+  wechatOpenAuthorize: http://zbs666.natapp1.cc
+  sell: http://zbs666.natapp1.cc
+
+logging:
+  level:
+    com.imooc.sell.dataobject.mapper: trace
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+
+
+

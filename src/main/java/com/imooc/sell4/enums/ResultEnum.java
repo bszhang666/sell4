@@ -11,6 +11,9 @@ public enum ResultEnum {
     ORDER_STATUS_ERROR(4,"订单状态不正确"),
     ORDER_UPDATE_ERROR(5,"订单更新失败"),
     ORDER_DELETE_EMPTY(6,"订单详情为空"),
+    PARAM_ERROR(7,"参数错误"),
+    CAET_EMPTY(8,"购物车为空"),
+    OPENID_EMPTY(9,"openid为空"),
     ;
 
     private Integer code;

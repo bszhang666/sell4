@@ -10,7 +10,7 @@ spring:
   jackson:
     default-property-inclusion: non_null
   redis:
-    host: 192.168.0.106
+    host: 192.168.0.105
     port: 6379
     password:
 
@@ -22,8 +22,8 @@ server:
 
 
 wechat:
-  mpAppId: wx9d69703e735f4c73
-  mpAppSecret: fc8a294d5fc58e4aeefb59ebc70612ee
+  mpAppId: wx099df2540b45178d
+  mpAppSecret: be8bc8bbd36ae71206d776051ea94faa
   mchId: 1483469312
   mchKey: 7mdApPMfXddfWWbbP4DUaVYm2wjyh3v3
   keyPath: /Users/zhangboshuo/IdeaProjects/coding-117/doc/h5.p12
@@ -34,8 +34,8 @@ wechat:
     orderStatus: dc351Ksozi631MDoOj9NjbyEe1wKkS6SyGTnl2hWzQo
 
 projecturl:
-  wechatMpAuthorize: http://zbs666.natapp1.cc
-  wechatOpenAuthorize: http://zbs666.natapp1.cc
+  wechatMpAuthorize: http://zbs999.natapp1.cc
+  wechatOpenAuthorize: http://zbs999.natapp1.cc
 #  sell: http://zbs666.natapp1.cc
 
 logging:

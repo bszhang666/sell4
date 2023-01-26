@@ -27,7 +27,7 @@ wechat:
   mchId: 1483469312
   mchKey: 7mdApPMfXddfWWbbP4DUaVYm2wjyh3v3
   keyPath: /Users/zhangboshuo/IdeaProjects/coding-117/doc/h5.p12
-  notifyUrl:  http://zbs666.natapp1.cc/sell/pay/notify
+  notifyUrl:  http://zbs999.natapp1.cc/sell/pay/notify
   openAppId: wx6ad144e54af67d87
   openAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
   templateId:

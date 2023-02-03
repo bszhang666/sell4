@@ -1,8 +1,12 @@
 package com.imooc.sell4.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.imooc.sell4.dataobject.OrderDetail;
+import com.imooc.sell4.enums.OrderStatusEnum;
+import com.imooc.sell4.enums.PayStatusEnum;
+import com.imooc.sell4.utils.EnumUtils;
 import com.imooc.sell4.utils.serilaizer.Date2LongSerilaizer;
 import lombok.Data;
 
@@ -34,6 +38,18 @@ public class OrderDTO {
     private Date updateTime;
 
     List<OrderDetail> orderDetailList;//新建一个DTO对象来存放订单详情信息
+
+    @JsonIgnore//转化时候忽略掉
+    public OrderStatusEnum getOrderStatusEnum()
+    {
+        return EnumUtils.getByCode(orderStatus,OrderStatusEnum.class);
+    }
+
+    @JsonIgnore
+    public PayStatusEnum getPayStatusEnum()
+    {
+        return EnumUtils.getByCode(payStatus,PayStatusEnum.class);
+    }
 
 
 

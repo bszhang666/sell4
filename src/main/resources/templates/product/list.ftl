@@ -80,10 +80,10 @@
 
                                 </td>
                                 <td>
-                                    <#if productInfo.getProductStatusEnum().getMsg()=="在架">
+                                    <#if productInfo.getProductStatusEnum().message=="上架">
                                         <a href="/sell/seller/product/off_sale?productId=${productInfo.productId}">下架</a>
                                     </#if>
-                                    <#if productInfo.getProductStatusEnum().getMsg()=="下架">
+                                    <#if productInfo.getProductStatusEnum().message=="下架">
                                         <a href="/sell/seller/product/on_sale?productId=${productInfo.productId}">上架</a>
                                     </#if>
 

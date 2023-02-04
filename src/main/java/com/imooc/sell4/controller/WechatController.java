@@ -1,6 +1,7 @@
 package com.imooc.sell4.controller;
 
 import com.imooc.sell4.config.WechatMpConfig;
+import com.imooc.sell4.config.WechatOpenConfig;
 import com.imooc.sell4.enums.ResultEnum;
 import com.imooc.sell4.exception.SellException;
 import lombok.extern.slf4j.Slf4j;
@@ -23,6 +24,9 @@ public class WechatController {
 
     @Autowired
     private WechatMpConfig wechatMpConfig;
+
+    @Autowired
+    private WechatOpenConfig wechatOpenConfig;
 
     @Autowired
     private WxMpService wxMpService;

@@ -5,26 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05e5c227-285b-47e8-b542-578806ef17f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/controller/SellerOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/controller/SellerProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/enums/CodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/utils/EnumUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/config/WechatOpenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/controller/SellerCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/dataobject/SellerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/form/CategoryForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/form/ProductForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/repository/SellerInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/service/SellerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/service/impl/SellerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/sell4/repository/SellerInfoRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/sell4/service/impl/SellerServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sell4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sell4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/config/WechatAccountConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/config/WechatAccountConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/controller/SellerProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/controller/SellerProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/controller/WechatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/controller/WechatController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/dataobject/ProductInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/dataobject/ProductInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/dto/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/dto/OrderDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/enums/OrderStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/enums/OrderStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/enums/PayStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/enums/PayStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/enums/ProductStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/enums/ProductStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/sell4/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/order/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/order/list.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/list.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/imooc/sell4/service/impl/OrderServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/sell4/service/impl/OrderServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -138,7 +133,7 @@
       <recent name="com.imooc.sell4.utils.serilaizer" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Sell4Application">
+  <component name="RunManager" selected="JUnit.SellerServiceImplTest.findSellerInfoByOpenid">
     <configuration name="OrderServiceImplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sell4" />
       <extension name="coverage">
@@ -150,22 +145,6 @@
       <option name="PACKAGE_NAME" value="com.imooc.sell4.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.imooc.sell4.service.impl.OrderServiceImplTest" />
       <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceImplTest.finish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sell4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.sell4.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.imooc.sell4.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.sell4.service.impl.OrderServiceImplTest" />
-      <option name="METHOD_NAME" value="finish" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,23 +166,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceImplTest.paid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SellerInfoRepositoryTest.findByOpenid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sell4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.sell4.service.impl.*" />
+          <option name="PATTERN" value="com.imooc.sell4.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.imooc.sell4.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.sell4.service.impl.OrderServiceImplTest" />
-      <option name="METHOD_NAME" value="paid" />
+      <option name="PACKAGE_NAME" value="com.imooc.sell4.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.sell4.repository.SellerInfoRepositoryTest" />
+      <option name="METHOD_NAME" value="findByOpenid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayServiceImplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SellerInfoRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.sell4.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.sell4.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.sell4.repository.SellerInfoRepositoryTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SellerServiceImplTest.findSellerInfoByOpenid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sell4" />
       <extension name="coverage">
         <pattern>
@@ -212,8 +207,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.imooc.sell4.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.sell4.service.impl.PayServiceImplTest" />
-      <option name="METHOD_NAME" value="create" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.sell4.service.impl.SellerServiceImplTest" />
+      <option name="METHOD_NAME" value="findSellerInfoByOpenid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -239,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SellerServiceImplTest.findSellerInfoByOpenid" />
+        <item itemvalue="JUnit.SellerInfoRepositoryTest.findByOpenid" />
+        <item itemvalue="JUnit.SellerInfoRepositoryTest.save" />
         <item itemvalue="JUnit.OrderServiceImplTest.create" />
         <item itemvalue="JUnit.OrderServiceImplTest.listTest" />
-        <item itemvalue="JUnit.PayServiceImplTest.create" />
-        <item itemvalue="JUnit.OrderServiceImplTest.paid" />
-        <item itemvalue="JUnit.OrderServiceImplTest.finish" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +253,8 @@
       <workItem from="1672051690005" duration="529000" />
       <workItem from="1672052240831" duration="84366000" />
       <workItem from="1673339574961" duration="2443000" />
-      <workItem from="1673345010777" duration="34621000" />
+      <workItem from="1673345010777" duration="48824000" />
+      <workItem from="1675512331231" duration="769000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1672051857719</created>
@@ -316,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674726200298</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2.3">
+      <created>1675416457950</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675416457950</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +333,8 @@
     <MESSAGE value="1.2" />
     <MESSAGE value="1.12" />
     <MESSAGE value="1.26" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.26" />
+    <MESSAGE value="2.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sell4$Sell4Application.ic" NAME="Sell4Application Coverage Results" MODIFIED="1672756461953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

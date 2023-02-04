@@ -24,5 +24,9 @@ public class WechatAccountConfig {
 
     private String notifyUrl;
 
+    private String openAppId;
+
+    private String openAppSecret;
+
 
 }

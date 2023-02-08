@@ -10,9 +10,8 @@ spring:
   jackson:
     default-property-inclusion: non_null
   redis:
-    host: 192.168.0.105
+    host: 192.168.0.109
     port: 6379
-    password:
 
 
 server:
@@ -36,7 +35,7 @@ wechat:
 projecturl:
   wechatMpAuthorize: http://zbs999.natapp1.cc
   wechatOpenAuthorize: http://zbs999.natapp1.cc
-#  sell: http://zbs666.natapp1.cc
+  sell: http://zbs999.natapp1.cc
 
 logging:
   level:

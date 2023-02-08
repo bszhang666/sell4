@@ -115,7 +115,47 @@
     </div>
 </div>
 
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+<script>
+    var websocket=null;
+    if('WebSocket' in window)
+    {
+        websocket=new WebSocket('ws://zbs999.natapp1.cc/sell/webSocket')
+    }
+    else
+    {
+        alert('该浏览器不支持websocket!')
+    }
+
+    websocket.onopen=function (event)
+    {
+        console.log('建立连接');
+    }
+
+    websocket.onclose=function (event)
+    {
+        console.log('断开连接');
+    }
+
+    websocket.onmessage=function (event)
+    {
+        console.log('收到消息'+event.data());
+        $('myModal').modal('show');
+
+        //弹窗提醒，播放音乐
+    }
+    websocket.onerror=function ()
+    {
+        console.log('websocket发生错误')
+    }
+    websocket.onbeforeunload=function ()
+    {
+        websocket.close();
+    }
+
+</script>
                 </body>
                 </html>
 
